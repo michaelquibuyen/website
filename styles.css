@@ -55,6 +55,10 @@ body {
   background: #11141f;
 }
 
+.logo {
+  zoom: 2;
+}
+
 .nav {
   padding: 30px 20px;
   position: relative;
@@ -68,16 +72,15 @@ body {
   text-align: center;
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 30px;
 }
 .contact-us-btn {
   color: #fff;
   display: inline-block;
   height: 48px;
-  width: 188px;
+  width: 388px;
   border-radius: 3px;
   background-color: #c02e58;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.44);
   text-decoration: none;
   margin-left: 16px;
 }
@@ -106,8 +109,8 @@ body {
   margin-bottom: 80px;
 }
 
-/* Feature highlights */
-.feature-highlights {
+/* Features */
+.features {
   color: #fff;
   padding-bottom: 100px;
   margin-bottom: 40px;
@@ -135,6 +138,50 @@ body {
 
 .feature-desc {
   color: #aea8d3;
+}
+.feature-desc a {
+  color: #aea8d3;
+  text-decoration: none;
+  border-bottom: 1px dotted #aea8d3;
+}
+.feature-desc a:hover {
+  color: #d0cde2;
+  border-bottom-color: #d0cde2;
+}
+
+.features--more {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.features--more--heading {
+  color: #2a304a;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.features--more--container {
+  padding: 0 30px;
+}
+
+.features--more .feature {
+  color: #000;
+}
+
+.features--more .feature-icon {
+  color: #3b90ff71;
+}
+
+.features--more .feature-icon {
+  font-size: 80px;
+}
+
+.features--more .feature-desc {
+  color: #000;
 }
 
 /* Services */
@@ -291,4 +338,103 @@ body {
 }
 .legal-links a:hover {
   text-decoration: underline;
+}
+
+/* Contact */
+.contact-heading {
+  margin-bottom: 3rem !important;
+}
+.contact-form {
+  flex-grow: 0.665;
+  flex-shrink: 0.665;
+  padding-right: 2rem;
+}
+
+.contact-form .field {
+  margin-bottom: 1.5em;
+}
+
+.contact-form h5 {
+  line-height: 1;
+  margin: 0 0 0.5em 0;
+  opacity: 0.75;
+}
+
+.contact-info {
+  flex-grow: 0.335;
+  flex-shrink: 0.335;
+  padding-left: 2rem;
+}
+
+.contact-info h5 {
+  margin: 0 0 1em 0;
+  line-height: 1;
+}
+
+.contact-info .number {
+  margin-top: -10px;
+}
+
+.contact-info address {
+  background: #f2f2f2;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  color: rgb(109, 109, 109);
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 1.75em;
+  text-align: center;
+}
+.contact-info address h6 {
+  margin: 0 0 1em 0;
+  line-height: 0;
+  font-size: 1.2rem;
+}
+
+.message,
+.text {
+  background: #f2f2f2;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 1em;
+}
+.text:focus,
+.message:focus {
+  background: #f2f2f2;
+}
+
+.message {
+  min-height: 300px;
+  resize: vertical;
+}
+
+.btn-submit {
+  border: 0;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.cta {
+  text-align: center;
+  margin: 70px auto 100px auto;
+}
+
+.cta h3 {
+  font-size: 26px;
+  font-weight: 100;
+  opacity: 0.75;
+}
+
+.cta .contact-us-btn {
+  line-height: 48px;
+  zoom: 1.5;
 }

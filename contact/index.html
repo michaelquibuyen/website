@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Loomble | Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles.css" />
+</head>
+
+<body>
+  <div class="top">
+    <div class="nav">
+      <a href="/">
+        <svg class="logo" width="157" height="33" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#FFF" fill-rule="nonzero">
+            <path d="M46.848 7.528c7.266 0 11.431 5.828 11.431 12.24 0 7.267-4.165 13.045-11.967 13.045-7.266 0-11.438-5.778-11.438-12.191 0-7.266 4.172-13.094 11.974-13.094zm-.536 5.38c-3.456 0-5.205 2.87-5.205 6.848 0 4.801 1.75 7.665 5.74 7.665 3.5 0 5.2-2.864 5.2-6.812 0-4.831-1.794-7.702-5.735-7.702zM145.156 22.77h-3.94c.447 3.05 3.224 4.981 6.767 4.981 2.49 0 5.467-.492 7.397-2.291h.255v1.868c0 3.113-2.104 5.467-8.717 5.467a11.924 11.924 0 0 1-11.88-12.148c0-8.095 4.932-13.138 11.83-13.138 5.02 0 9.683 3.586 9.683 9.34-.05 4.489-3.406 5.921-11.395 5.921zm1.121-10.218c-2.914 0-4.931 2.373-5.062 5.156l-.05.803h2.696c5.691 0 6.993-.623 6.993-2.329 0-2.422-1.794-3.63-4.558-3.63h-.019zM22.552 7.528c7.26 0 11.432 5.828 11.432 12.24 0 7.267-4.172 13.045-11.974 13.045-7.26 0-11.431-5.778-11.431-12.191-.019-7.266 4.171-13.094 11.973-13.094zm-.542 5.38c-3.45 0-5.199 2.87-5.199 6.848 0 4.801 1.75 7.665 5.741 7.665 3.493 0 5.2-2.864 5.2-6.812 0-4.831-1.794-7.702-5.742-7.702z"
+            />
+            <path d="M7.665 32.502c2.646 0 4.034-1.034 4.034-3.63V27.57h-1.612c-2.82 0-4.079-.766-4.079-3.182V1.059L0 0v24.968c-.025 4.888 2.69 7.534 7.665 7.534zM93.994 32.278c-3.275 0-4.576-1.526-4.576-4.396v-9.34c0-3.99-1.794-5.697-4.44-5.697-2.422 0-4.078 1.706-4.078 5.025v14.408h-1.613c-2.646 0-4.396-1.526-4.396-4.396v-9.34c0-3.99-1.836-5.697-4.483-5.697-2.328 0-4.078 1.837-4.078 5.156v14.277h-1.619a4.128 4.128 0 0 1-4.358-4.396v-9.37c0-6.588 3.45-10.984 10.759-10.984a8.916 8.916 0 0 1 7.353 3.736 8.219 8.219 0 0 1 6.949-3.736c5.56 0 10.043 3.362 10.043 10.224v14.526h-1.463zM110.058 32.813c7.354 0 12.017-5.871 12.017-13.131 0-7.13-4.707-12.154-10.853-12.154a7.82 7.82 0 0 0-6.544 3.68V4.165c0-1.313-.037-2.334-.1-3.113L98.67.012v20.485c0 7.254 5.2 12.316 11.388 12.316zm0-19.924c3.674 0 5.784 1.973 5.784 7.845 0 3.904-2.154 6.768-5.155 6.768-3.586 0-5.965-2.285-5.965-7.845 0-3.786 2.285-6.793 5.336-6.793v.025zM132.068 32.502c2.647 0 4.035-1.034 4.035-3.63V27.57h-1.637c-2.827 0-4.079-.766-4.079-3.182V4.035c0-1.19 0-2.173-.043-2.989L124.379 0v24.968c.025 4.888 2.715 7.534 7.69 7.534z"
+            />
+          </g>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="container content">
+    <h2 class="contact-heading">
+      Contact Us
+    </h2>
+    <div class="row">
+      <form class="col contact-form" id="contact-form" onsubmit="submitForm();">
+        <p>Use the form below to schedule a demo, get support pricing or to purchase a hosting plan.</p>
+        <p>Our office hours are Monday &ndash; Friday, 9am &ndash; 5pm Pacific, and we attempt to respond to support requests
+        within 1 business day.</p>
+        <div class="field">
+          <h5>Full Name</h5>
+          <input class="text" type="text" name="name" />
+        </div>
+        <div class="field">
+          <h5>Email</h5>
+          <input class="text" type="email" name="email" />
+        </div>
+        <div class="field">
+          <h5>Subject</h5>
+          <input class="text" type="subject" name="subject" id="subject" />
+        </div>
+        <div class="field">
+          <h5>Message</h5>
+          <textarea class="message" id="message"></textarea>
+        </div>
+        <div>
+          <button class="contact-us-btn btn-submit">Send Message</button>
+        </div>
+      </form>
+      <div class="col contact-info">
+        <h5>Phone</h5>
+        <p class="number">310-349-9654</p>
+
+        <h5>Mailing Address</h5>
+        <address>
+          <h6>Loomble Inc</h6>
+          2140 S. Dupont Hwy
+          <br/>Camden, DE 19934
+        </address>
+      </div>
+    </div>
+  </div>
+  <footer class="container footer">
+    &copy; 2016&ndash;2018 Loomble
+    <p class="legal-links">
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms of Use</a>
+    </p>
+  </footer>
+</body>
+<script>
+  var hash = window.location.hash
+  var hashToSubjectMap = {
+    'managed-hosting': 'Managed Hosting',
+    'paid-support': 'Paid Support'
+  }
+
+  if (hash.charAt(0) === '#') {
+    hash = hash.substring(1)
+  }
+
+  if (hash !== undefined && hashToSubjectMap[hash] !== undefined) {
+    document.getElementById('subject').value = hashToSubjectMap[hash]
+  }
+
+  function submitForm() {
+    var yourMessage = document.getElementById("message").value;
+    var subject = document.getElementById("subject").value;
+    document.location = "mailto:sales@loomble.com?subject="
+        + encodeURIComponent(subject)
+        + "&body=" + encodeURIComponent(yourMessage);
+  }
+</script>
+
+</html>
