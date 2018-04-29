@@ -47,7 +47,7 @@ This Code is not exhaustive or complete, nor is it a rulebook; it serves to expr
 
 ### Source Materials
 
-This guide in it's current form is copied verbatim (with names/emails changes) from the [Ember.js Community Guidelines](https://www.emberjs.com/guidelines/) which in turn borrows heavily from the following sources:
+This guide in it's current form is copied verbatim (with name/email changes) from the [Ember.js Community Guidelines](https://www.emberjs.com/guidelines/) which in turn borrows heavily from the following sources:
 
 1. [Mozilla Code of Conduct](https://wiki.mozilla.org/Code_of_Conduct/Draft)
 2. [Ubuntu Code of Conduct](http://www.ubuntu.com/about/about-ubuntu/conduct)
